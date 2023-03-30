@@ -18,26 +18,31 @@
         <title>Frutas</title>        
     </head>
     <body>
-       
-        <nav class="nav">
-            <div class="container">
 
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li>  <a class="nav-item nav-link active" href="${pageContext.request.contextPath}/pages/index.jsp">Home </a></li>
-                        <li>   <a class="nav-item nav-link" href="${pageContext.request.contextPath}/pages/usuario/crearUsuario.jsp">Crear Usuario</a></li>
-                        <li>  <a class="nav-item nav-link" href="${pageContext.request.contextPath}/FrutasServlet?accion=listar">Listar Frutas</a></li>
-
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img src="${pageContext.request.contextPath}/resources/img/manzana.png" alt="alt"/>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li>  <a class="nav-link active" href="${pageContext.request.contextPath}/pages/index.jsp">Home </a></li>
+                   
+                        </li>
+                        <li>   <a class="nav-link" href="${pageContext.request.contextPath}/pages/usuario/crearUsuario.jsp">Crear Usuario</a></li>
+                       
+                        </li>
+                        <li>  <a class="nav-link" href="${pageContext.request.contextPath}/FrutasServlet?accion=listar">Listar Frutas</a></li>
+                       
+                        </li>
                     </ul>
+                   
                 </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
             </div>
-        </nav>
-                        <div class="container">
+        </nav>      
+
+        <div class="container2">            
 
 
 
